@@ -46,9 +46,21 @@ if ('webkitSpeechRecognition' in window) {
     final_span.innerHTML = linebreak(final_transcript);
     interim_span.innerHTML = linebreak(interim_transcript);
     console.log(final_transcript)
-    if(final_transcript=="North"){
-      console.log("North")
+    if(final_transcript=="Beep"){
+      console.log("Beep")
       fetch("https://bot3.seattleacademy.software/sing?song=[70,10]")
+    }
+    if(final_transcript=="Rotate left"){
+      console.log("Rotate left")
+      fetch("https://bot3.seattleacademy.software/drive?left=100&right=-100")
+    }
+    if(final_transcript=="Rotate right"){
+      console.log("Rotate right")
+      fetch("https://bot3.seattleacademy.software/drive?left=-100&right=100")
+    }
+    if(final_transcript=="Forward"){
+      console.log("Forward")
+      fetch("https://bot3.seattleacademy.software/drive?left=100&right=100")
     }
   };
 }
