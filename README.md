@@ -9,8 +9,6 @@ For directions (forwards and backwards) there is no variable you can input with 
 
 This program controls Bot #3.
 
----------------------------------------------------------------------------------------------------------------------
-
 Command List
 -------------
 Beep - Makes  the bot beep
@@ -20,6 +18,6 @@ Forward - Moves the bot forward
 
 You have to click the "Command" button to issue a new command. 
 
----------------------------------------------------------------------------------------------------------------------
+
 If you have any quesions or requests contact me at: 
 Isaaclong57@gmail.com
