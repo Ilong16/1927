@@ -62,6 +62,10 @@ if ('webkitSpeechRecognition' in window) {
       console.log("Forward")
       fetch("https://bot3.seattleacademy.software/drive?left=100&right=100")
     }
+        if(final_transcript=="Stop"){
+      console.log("Forward")
+      fetch("https://bot3.seattleacademy.software/drive?left=0&right=0")
+    }
   };
 }
 
